@@ -1,14 +1,12 @@
-<?php 
+<?php
 
-function show($stuff) 
-{
-  echo "<pre>";
-  print_r($stuff);
-  echo "</pre>";
-}
+session_start();
 
-// show($_GET);
+require "../app/core/init.php";
 
-$URL = $_GET['url'] ?? 'home';
-$URL = explode("/", $URL);
-show($URL);
+$app = new App;
+$app->loadController();
+
+
+
+
