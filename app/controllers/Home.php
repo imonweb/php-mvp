@@ -6,7 +6,11 @@ class Home extends Controller
   {
     echo "This is the home controller";
   }
+
+
 }
 
 $home = new Home;
-$home->index();
+// $home->index();
+
+call_user_func_array();
