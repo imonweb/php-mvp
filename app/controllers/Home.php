@@ -13,4 +13,3 @@ class Home extends Controller
 $home = new Home;
 // $home->index();
 
-call_user_func_array();
