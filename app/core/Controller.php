@@ -10,7 +10,7 @@ class Controller
       require $filename;
     } else {
       // echo "controller not found";
-      $filename = "../app/views/_404.php";
+      $filename = "../app/controllers/_404.php";
       require $filename;
     }
   }
