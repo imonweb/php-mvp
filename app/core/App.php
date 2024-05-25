@@ -39,4 +39,3 @@ class App
 // loadController();
  
 // show($_GET);
-
