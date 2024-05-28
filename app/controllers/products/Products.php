@@ -8,6 +8,3 @@ class Products extends Controller
     $this->view('products');
   }
 }
-
-
-
