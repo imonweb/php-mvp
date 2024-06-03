@@ -6,7 +6,13 @@ class Home extends Controller
   {
     $model = new Model;
     // $model->test();
-    echo "This is the home controller";
+    $arr['id'] = 1;
+    $arr['name'] = 'John';
+    $arr2['name'] = 'Jazz';
+    $result = $model->where($arr, $arr2);
+
+    // echo "This is the home controller";
+    show($result);
     $this->view('home');
   }
 
